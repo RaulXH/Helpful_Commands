@@ -11,3 +11,11 @@ echo -e 'alias root="proot -0 -$PWD ~ $BASH"' >> $PREFIX/etc/profile
 
 ```
 [#]  Open a new session | Execute: *_root_*
+# Password generator
+```
+pkg install pwgen
+
+```
+* _use pwgen --help_
+* _Create a function_
+```
