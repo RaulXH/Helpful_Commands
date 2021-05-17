@@ -14,7 +14,6 @@ echo -e 'alias root="proot -0 -$PWD ~ $BASH"' >> $PREFIX/etc/profile
 # Password generator
 ```
 pkg install pwgen
-
 ```
 * _use pwgen --help_
 * _Create a function_
@@ -28,5 +27,5 @@ GenKey()
 ' >> ~/.bashrc
 source ~/.bashrc
 ```
-call the function: $~ GenKey
-#
+* call the function: $~ _GenKey_
+* view
