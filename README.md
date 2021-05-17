@@ -10,7 +10,8 @@ pkg install proot
 echo -e 'alias root="proot -0 -$PWD ~ $BASH"' >> $PREFIX/etc/profile
 
 ```
-[#]  Open a new session | Execute: *_root_*
+* *_Open a new session_* 
+* Execute: *_root_*
 # Password generator
 ```
 pkg install pwgen
