@@ -19,9 +19,14 @@ pkg install pwgen
 * _use pwgen --help_
 * _Create a function_
 ```
-Password()
+echo '
+GenKey()
 {
     A=$(pw``gen -s -C 20 -n10)                                    
-    printf "\n\e[7;50;33m You Generate Password\e[0m: \e[0;50;37m$A\n\n\e[0m"                                          
+    printf "\n\e[7;50;33m You Generate Password\e[0m: \e[0;50;37m$A\n\n\e[0m"                                          
 }
+' >> ~/.bashrc
+source ~/.bashrc
 ```
+call the function: $~ GenKey
+#
