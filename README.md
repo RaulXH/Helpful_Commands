@@ -11,7 +11,7 @@ https://f-droid.org/en/packages/com.termux/
 ```
 pkg install proot 
 
-echo -e 'alias root="proot -0 -$PWD ~ $BASH"' >> $PREFIX/etc/profile
+echo -e 'alias root="proot -w $PWD -0 $BASH"' >> $PREFIX/etc/profile
 
 ```
 * *_Open a new session_* 
