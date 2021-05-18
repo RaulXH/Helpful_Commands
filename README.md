@@ -5,7 +5,7 @@
 ```
 https://f-droid.org/en/packages/com.termux/
 ```
-![](https://badges.pufler.dev/visits/RaulXH/Helpful_Commands) ![](https://img.shields.io/github/stars/RaulXH/Helpful_Commands)  ![](https://img.shields.io/badge/Commads-Termux-blue)
+![](https://badges.pufler.dev/visits/RaulXH/Helpful_Commands?style=flat-square&logo=Github) ![](https://img.shields.io/github/stars/RaulXH/Helpful_Commands?style=flat-square&logo=Github)  ![](https://img.shields.io/badge/Commads-Termux-blue?style=flat-square&logo=Github)
 # root
 #
 ```
