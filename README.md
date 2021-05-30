@@ -54,6 +54,6 @@ tar -zcf /sdcard/Backup-Termux.tar.gz $BACKUP
 tar -zxf /sdcard/Backup-termux.tar.gz --recursive-unlink --preserve-permissions
 ```
 # view 
-<script id="asciicast-icY1qz37rKbWoLxTQrQ77CX0M" src="https://asciinema.org/a/icY1qz37rKbWoLxTQrQ77CX0M.js" async></script>
+<a href="https://asciinema.org/a/icY1qz37rKbWoLxTQrQ77CX0M" target="_blank"><img src="https://asciinema.org/a/icY1qz37rKbWoLxTQrQ77CX0M.svg" /></a>
 * done!  It is easy
 # More will come!
