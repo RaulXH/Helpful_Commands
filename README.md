@@ -49,7 +49,7 @@ BACKUP=$(ls -l $HOME | awk '/^d/ && !/storage/ {print $NF}' | xargs )
 ```
 tar -zcf /sdcard/Backup-Termux.tar.gz $BACKUP
 ```
-* restore the backup created
+* RESTORE the backup created
 ```
 tar -zxf /sdcard/Backup-termux.tar.gz --recursive-unlink --preserve-permissions
 ```
