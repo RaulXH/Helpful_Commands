@@ -52,7 +52,10 @@ tar -zcf /sdcard/Backup-Termux.tar.gz $BACKUP
 ```
 * RESTORE the backup created
 ```
+termux-setup-storage
+
 tar -zxf /sdcard/Backup-termux.tar.gz --recursive-unlink --preserve-permissions
+
 ```
 # view 
 <a href="https://asciinema.org/a/icY1qz37rKbWoLxTQrQ77CX0M" target="_blank"><img src="https://asciinema.org/a/icY1qz37rKbWoLxTQrQ77CX0M.svg" /></a>
