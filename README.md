@@ -41,4 +41,13 @@ source ~/.bashrc
 ```
 BACKUP=$(ls -l $HOME | awk '/^d/ && !/storage/ {print $NF}' | xargs )
 ```
+* Next step | Save the backup in the INTERNAL MEMORY
+```
+tar -zcf /sdcard/Backup-Termux.tar.gz $BACKUP
+```
+* restore the backup created
+```
+tar -zxf /sdcard/Backup-termux.tar.gz --recursive-unlink --preserve-permissions
+```
+* done!  It is easy
 # More will come!
