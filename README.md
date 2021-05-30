@@ -37,6 +37,7 @@ source ~/.bashrc
 ![Screenshot_20210516_215725](https://user-images.githubusercontent.com/77165035/118427076-062c9e80-b692-11eb-8eac-7c8a9d72e22a.jpg)
 # Backup to the $HOME repositories
 * Quick backup of your Termux repositories.  quickly
+* For more information: https://wiki.termux.com/wiki/Backing_up_Termux
 * be located inside $ HOME
 ```
 cd $HOME
