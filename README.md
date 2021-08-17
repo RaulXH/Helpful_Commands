@@ -63,12 +63,14 @@ tar -zxf /sdcard/Backup-termux.tar.gz --recursive-unlink --preserve-permissions
 * done!  It is easy
 # Quick file sharing
 ```
+echo '
 transfer ()
 {
     [[ -z $1 ]] || [[ ! -f $1 ]] && printf "\n[ Error ]\n\n" && return 1;
         curl --progress-bar --upload-file "$1" https://transfer.sh/$(basename "$1") | tee /dev/null;
 	    echo
-}
+}' >> ~/.bashrc
+source ~/.bashrc
 ```
 # View
 [![asciicast](https://asciinema.org/a/mCE5fshrrIQ5Swrd9s6QHbm9t.svg)](https://asciinema.org/a/mCE5fshrrIQ5Swrd9s6QHbm9t)
